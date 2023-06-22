@@ -4,6 +4,8 @@ public class Pessoa extends Animal {
     // Métodos da classe
     public void falar(){
         System.out.println("falei");
+        //sobrecarga de metodo falar ()
+        public String falar(String volume){ return "falei" + volume; }
     }
     //sobrecarga do método falar ()
     public String falar (String volume){

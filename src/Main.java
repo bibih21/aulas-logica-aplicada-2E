@@ -11,19 +11,29 @@ public class Main {
         qualquer.sobrenome = "Lee";
         qualquer.falar();
         //Criar novos objetos
-        //Declarar objetos
+        //Declarar objeto
         Pessoa rainha;
-        //Instanciar objetos
-        rainha = new Pessoa ();
-        //Definir forma do objeto
-        rainha.nome = "Tina";
-        rainha.sobrenome = "Tunner";
-        //Definir comportamento do objeto
+        //instanciar objetos
+        rainha = new Pessoa();
+        //definir forma de objeto
+        rainha.nome = "tina";
+        rainha.sobrenome = "tunner";
+        //definir comportamento do objeto
         rainha.falar();
         System.out.println(rainha.falar("alto"));
         rainha.comer();
-        //sobrescrita do método
         public void comer(){
-            System.out.println("comeu como pessoa");
-    }
+            System.out.println(("comer como pessoa");
+
+
+        Produto p1 = new Produto(5.00);
+        Produto p2 = new Produto();
+        Produto p3;
+        p3 = new Produto("bala",2.00);
+        p3 = new Produto("chiclete",4.00);
+        p1.preco = 10.00;
+        //p1.nome = "chocolate";
+        p1.setNome("cholote");
+
+        }
 }
